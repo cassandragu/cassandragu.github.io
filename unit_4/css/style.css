@@ -1,0 +1,78 @@
+body {
+	background-color: #F5F5F5;
+  text-align: center;
+	text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'Metrica-Regular';
+  src: url('Metrica-Regular.eot');
+  src: url('Metrica-Regular.woff2') format('woff2'),
+       url('Metrica-Regular.woff') format('woff'),
+       url('Metrica-Regular.ttf') format('truetype'),
+       url('Metrica-Regular.svg#Metrica-Regular') format('svg'),
+       url('Metrica-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'POLYARegular-Regular';
+  src: url('POLYARegular-Regular.eot');
+  src: url('POLYARegular-Regular.woff2') format('woff2'),
+       url('POLYARegular-Regular.woff') format('woff'),
+       url('POLYARegular-Regular.ttf') format('truetype'),
+       url('POLYARegular-Regular.svg#POLYARegular-Regular') format('svg'),
+       url('POLYARegular-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Metrica-Regular';
+  letter-spacing: 8px;
+  font-size: 80px;
+  color: #8F8F8F;
+  text-decoration: none;
+}
+
+nav {
+  word-spacing: 20px;
+  color: #8F8F8F;
+}
+
+.preview {
+    background-color: #F5F5F5;
+    box-shadow: .5em .5em .5em #8F8F8F;
+    float: center;
+    margin: 2em;
+    width: 35%;
+}
+
+.intro {
+  word-spacing: 10px;
+}
+
+#slogan {
+  font-family: 'POLYARegular-Regular';
+  font-size: 90px;
+  line-height: 1.5em;
+  text-align: right;
+  color: black;
+}
+
+h3, p, a {
+  font-family: 'Abel', sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #8F8F8F;
+  text-decoration: none;
+}
+
+img {
+  width: 75%;
+}
