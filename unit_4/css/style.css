@@ -68,8 +68,9 @@ img {
 .preview {
     box-shadow: .5em .5em .5em #8F8F8F;
     float: left;
-    margin: 1%;
-    width: 48%;
+    margin: 4%;
+    margin-top:0;
+    width: 42%;
 }
 .intro {
   word-spacing: 5px;
