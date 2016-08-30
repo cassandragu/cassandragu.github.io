@@ -55,7 +55,7 @@ h2 {
 	padding: 2em 0;
 }
 p {
-	margin:1em 0;
+	margin:2em 0;
 }
 img {
 	display:block;
@@ -68,8 +68,8 @@ img {
 .preview {
     box-shadow: .5em .5em .5em #8F8F8F;
     float: left;
-    margin: .5%;
-    width: 49%;
+    margin: 1%;
+    width: 48%;
 }
 .intro {
   word-spacing: 5px;
@@ -77,14 +77,14 @@ img {
 #slogan {
   font-family: 'POLYARegular-Regular';
   font-size: 90px;
-  line-height: 1.5;
+  line-height: 1.4;
   text-align: right;
-  color: #fff;
+  color: #000;
   float:right;
+  margin:1em 0;
 }
 #slogan * {
 	display:inline;
-	background:#000;
 }
 .wrapper {
 	max-width: 70em;
