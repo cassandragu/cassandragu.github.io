@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Metrica-Regular';
+  src: url('Metrica-Regular.eot');
+  src: url('Metrica-Regular.woff2') format('woff2'),
+       url('Metrica-Regular.woff') format('woff'),
+       url('Metrica-Regular.ttf') format('truetype'),
+       url('Metrica-Regular.svg#Metrica-Regular') format('svg'),
+       url('Metrica-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'POLYARegular-Regular';
+  src: url('POLYARegular-Regular.eot');
+  src: url('POLYARegular-Regular.woff2') format('woff2'),
+       url('POLYARegular-Regular.woff') format('woff'),
+       url('POLYARegular-Regular.ttf') format('truetype'),
+       url('POLYARegular-Regular.svg#POLYARegular-Regular') format('svg'),
+       url('POLYARegular-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+* { margin:0 auto; padding:0; box-sizing:border-box; }
+body {
+	background-color: #F5F5F5;
+	color: #8F8F8F;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Abel', sans-serif;
+  letter-spacing: 1px;
+}
+footer {
+  clear:both;
+  padding:2em 0;
+}
+section {
+	clear:both;
+}
+nav {
+  word-spacing: 5px;
+  margin-bottom: 2em;
+}
+a {
+  color: #8F8F8F;
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Metrica-Regular';
+  letter-spacing: 8px;
+  font-size: 80px;
+}
+h2 {
+	padding: 2em 0;
+}
+p {
+	margin:2em 0;
+}
+img {
+	display:block;
+	margin-bottom:2em;
+	width: 100%;
+  border: 10px;
+	box-shadow: .5em .5em .5em #8F8F8F;
+}
+
+.preview {
+    box-shadow: .5em .5em .5em #8F8F8F;
+    float: left;
+    margin: 4%;
+    margin-top:0;
+    width: 42%;
+}
+.intro {
+  word-spacing: 5px;
+}
+#slogan {
+  font-family: 'POLYARegular-Regular';
+  font-size: 90px;
+  line-height: 1.4;
+  text-align: right;
+  color: #fff;
+  float:right;
+  margin:.5em 0;
+  padding: 0 .5em;
+}
+#slogan * {
+	display:inline;
+  background: #000;
+}
+
+.wrapper {
+	max-width: 70em;
+	margin:auto;
+	padding: 1em;
+}
