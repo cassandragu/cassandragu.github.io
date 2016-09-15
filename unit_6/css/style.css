@@ -21,7 +21,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
 * { margin:0 auto; padding:0; box-sizing:border-box; }
+
 body {
 	background-color: #F5F5F5;
 	color: #8F8F8F;
@@ -31,27 +33,31 @@ body {
 	font-family: 'Abel', sans-serif;
   letter-spacing: 1px;
 }
+
 footer {
   clear:both;
   padding:2em 0;
 }
+
 section {
 	clear:both;
 }
+
 nav {
   word-spacing: 5px;
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
 a {
   color: #8F8F8F;
   text-decoration: none;
-  transition: color 1s;
+  transition: color .5s;
 }
 
-nav a:hover{ 
-  color: red; 
-  transition: color 1s; 
+a:hover {
+  color: black; 
+  transition: color .5s; 
 }
 
 h1 {
@@ -59,16 +65,20 @@ h1 {
   letter-spacing: 8px;
   font-size: 80px;
 }
+
 h2 {
 	padding: 2em 0;
 }
+
 p {
 	margin:2em 0;
 }
+
 img {
 	display:block;
+  margin-top:2em;
 	margin-bottom:2em;
-	width: 100%;
+	width: 80%;
   border: 10px;
 	box-shadow: .5em .5em .5em #8F8F8F;
 }
@@ -76,13 +86,20 @@ img {
 .preview {
     box-shadow: .5em .5em .5em #8F8F8F;
     float: left;
-    margin: 4%;
+    margin: 10%;
     margin-top:0;
-    width: 42%;
+    width: 30%;
 }
+
+.preview:hover {
+  opacity:0.5;;
+
+}
+
 .intro {
   word-spacing: 5px;
 }
+
 #slogan {
   font-family: 'POLYARegular-Regular';
   font-size: 90px;
@@ -93,6 +110,7 @@ img {
   margin:.5em 0;
   padding: 0 .5em;
 }
+
 #slogan * {
 	display:inline;
   background: #000;
@@ -103,3 +121,33 @@ img {
 	margin:auto;
 	padding: 1em;
 }
+
+article {
+  width: 80%;
+  margin: 1em auto;
+  border: 2px solid;
+  border-color:#8F8F8F;
+  padding: 1em;
+  text-transform: none;
+  text-align: left;
+}
+
+article img {
+  float: left;
+  width: 40%;
+  margin: 2em;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
