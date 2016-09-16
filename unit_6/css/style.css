@@ -132,12 +132,6 @@ article {
   text-align: left;
 }
 
-article img {
-  float: left;
-  width: 40%;
-  margin: 2em;
-}
-
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -151,3 +145,9 @@ article img {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+
+.col-2 {
+	float:left;
+	width:50%;
+}
