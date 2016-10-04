@@ -45,7 +45,6 @@ section {
 
 nav {
   word-spacing: 5px;
-  margin-top: 1em;
   margin-bottom: 2em;
 }
 
@@ -68,6 +67,7 @@ h1 {
 
 h2 {
 	padding: 2em 0;
+  font-weight: normal;
 }
 
 p {
@@ -177,17 +177,19 @@ article {
 	display: block;
 	text-align: right;
 	margin: 0;
+  padding: .5em;
 	}
 
 	#slogan {
 	font-family: 'Abel', sans-serif;
 	font-size: 60px;
+  color: #696969;
 	letter-spacing: 1px;
 	}
 
   .col-2 {
     float:none;
-    width:90%;
+    width:auto;
   }
 }
 
